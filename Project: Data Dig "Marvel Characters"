@@ -66,6 +66,18 @@ SELECT * FROM marvels;
     WHERE gender IN ("male")
     ORDER BY popularity;
     
+/*Who's strength and intelligence is above average?*/
+    SELECT name, strength, intelligence
+    FROM marvels
+    WHERE strength >4 AND intelligence >4;
+    
+    
+ /*Who's strenth, intelligence, and fighting skills are above average for heros?*/
+    SELECT name, strength, intelligence, fighting_Skills
+    FROM marvels
+    WHERE strength >4 AND intelligence >4 AND fighting_Skills >4 ;
+
+
 
 
 
